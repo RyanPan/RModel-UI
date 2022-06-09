@@ -1,0 +1,27 @@
+菜单栏打开、保存、编辑等功能指的是打开R代码文件吗？
+打开、编辑操作在另一个窗口？还是说编辑指的就是输入参数？
+黑框输入 SWAT.exe 路径在界面上如何体现？是和 Project Path 选择 LOADEST 模型路径一样吗？
+如果找不到默认点源如何处理，弹出窗口选择吗？
+图片下半部分的两个图片从哪里来？左边是SWAT模型的结果，右边是 LOADEST 模型的结果？
+SWAT 和 LOADEST 模型的运行是相同的代码逻辑吗？
+界面输入项与 R 代码参数对照表，以 WEC_2.R 为例：
+“TextInOut Path”	path
+“Select Output Path”	outpath
+“Default_beg_year”	default_beg_yr
+“Default_end_year”	default_end_yr
+“beg_year”		beg_yr
+“end_year”		end_yr
+“The ... of NH3-N”	standard_NH3_N3
+“The ... of TP”		standard_TP3
+“The ... of COD”		standard_COD3
+“Monitorning Stations”Station3
+“Project Path”		<SWAT and LOADEST 模型所在的目录？>
+
+“Default Point Source”		？？？
+“Default weather”		？？？
+“Default Calibration File”	？？？
+“Default Estimation File”	？？？
+“Default Hearder File”		？？？
+
+“Monitoring station”		？？？
+“Water quality varies”		？？？
