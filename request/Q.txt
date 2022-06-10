@@ -25,3 +25,10 @@ SWAT 和 LOADEST 模型的运行是相同的代码逻辑吗？
 
 “Monitoring station”		？？？
 “Water quality varies”		？？？
+
+
+只有一个“Run”按钮可以吗？点击这个按钮按顺序执行 SWAT Model、LOADEST Model 和 R 代码？
+Default Point Source 如果选择 User defined，上传的文件保存在哪里？其他类似的问题。
+SWAT Model 安装在什么位置也是展示对象关心的吗？这个都属于软件安装配置过程需要完整的工作，并不是影响运行结果的因素？
+地图是什么时候绘制的？
+只有一个站点的 LOADEST 数据？
