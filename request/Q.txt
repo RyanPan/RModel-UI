@@ -32,3 +32,28 @@ Default Point Source 如果选择 User defined，上传的文件保存在哪里�
 SWAT Model 安装在什么位置也是展示对象关心的吗？这个都属于软件安装配置过程需要完整的工作，并不是影响运行结果的因素？
 地图是什么时候绘制的？
 只有一个站点的 LOADEST 数据？
+
+2022-06-11
+1. 确认一下，修改界面参数（ Station.txt、默认开始年份、默认结束年份，开始年份、结束年份、NH3-N、TP、COD  ）会影响 SWAT & LOADEST 模型的执行吗？
+2. WEC_3.R 第 127 行，始终是 rch=river3[2] 吗？
+3. WEC_3.R 第 127-130 这 4 行，与第 99-102 这 4 行似乎是完全一样的，如果第 107 行 if 判断不成立，那 4 行代码就相当于执行了 2 次
+4. output.rch 文件 SWAT 模型生成的文件对吗？
+5. COD.out 文件是 LOADEST 模型生成的文件对吗？
+
+6. 以 Default Point Source 为例，默认文件保存在什么位置？叫什么名字？只能是这个名字吗？
+	如果上传用户自定义文件，保存在哪里？文件名称是什么？覆盖默认文件吗？
+	SWAT exe 程序可以接收参数，指定这个文件的名字吗？
+7. 我本地安装的 LOADEST Model 每次运行只在根目录下生成一个 COD.out？
+7. LOADEST Model 怎样才能为每一个 Station 生成一个 COD.out 文件？
+8. 我安装的 ArcSWAT 10.7，应该怎么成功执行 exe？
+
+
+不同 end_year 会影响生成的
+
+COD 获取历史数据路径未处理
+
+20190101-20601231
+
+
+默认年以 History 还是 Future file.cio 文件为准？
+修改 file.cio 只修改 History Model 吗？
